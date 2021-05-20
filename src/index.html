@@ -1,54 +1,270 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <link rel="stylesheet" href="styles/style.css">
-    <title>FakeNews Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+    <!--Cabecalho-->
     <div class="container header">
-        <div class="row">
-            <div class=" col-12 cabecalho">
-                    <h1>CABEÇALHO</h1>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="container body">
-        <div class="row">
-            <div class="col-12 conteudo">
-                    <h1>CONTEÚDO</h1>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
+        <div class=" row">
+            <div class="col-12 navbar">
+                <div class="row">
+                    <img src="assets/logo.png" width="200" height="50" class="logo">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="index.html">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
     
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Quem Somos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Categoria
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Política</a>
+                                        <a class="dropdown-item" href="#">Religião</a>
+                                        <a class="dropdown-item" href="#">Saúde</a>
+                                        <a class="dropdown-item" href="#">Esportes</a>
+                                        <a class="dropdown-item" href="#">Entretenimento</a>
+    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button type="button" class="btn btn-danger" type="submit">Pesquisar</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="container main">
+        <!--Carrossel-->
+        <div class="row">
+            <div class="col-12">
+                <h1> Em Alta</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-12 carrousel">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/neymar.jpg"
+                                                alt="neymar com camisa do vasco">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href><h2 class="card-title">Neymar foi vendido para o Vasco?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/whindersson.jpg"
+                                                alt="whindersson triste">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href><h2 class="card-title">Whindersson foi traído por atual mulher?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/ribamar.jpg"
+                                                alt="ribamar cruzando os braços">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href><h2 class="card-title">É verdade que Ribamar tem mais de 1000 gols em jogos oficiais?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class=" col-sm-12 col-md-6 col-lg-4">
+                                            <img width="320px" height="300px" src="assets/dilma.jpg" alt="foto de dilma">
+                                        </div>
+                                        <div class="col-sm-8 col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <a href><h2 class="card-title">O impeachment de Dilma foi golpe ou não?</h2>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class=" col-sm-12 col-md-6 col-lg-4">
+                                        <img width="320px" height="300px" src="assets/tom_cruise.jpg" alt="foto Tom Cruise sorrindo">
+                                    </div>
+                                    <div class="col-sm-8 col-md-6 col-lg-8">
+                                        <div class="card-body">
+                                            <a href><h2 class="card-title">É verdade que Tom Cruise aprendeu a pilotar um
+                                                helicóptero durante as gravações de um de seus filmes?</h2>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------Cards Notícias------------------>
+        <div class="elemento">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 98%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="assets/cloroquina.jpg" class="card-img" alt="Medicação Cloroquina">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href><h5 class="card-title">A cloroquina é um antiviral e um anti-inflamatório conhecido
+                                        pelo Brasil?
+                                    </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width:98%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="assets/covid.jpg" class="card-img" alt="Célula">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href><h5 class="card-title">O Brasil é um dos países que mais imunizaram no mundo?</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 98%">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="assets/lgbt.jpg" class="card-img" alt="Vacina">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href><h5 class="card-title">Cartaz que anuncia vacinação prioritária de homossexuais
+                                        contra a Covid-19?
+                                    </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="card mb-3" style="max-width: 98%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="assets/Pfizer.jpg" class="card-img" alt="Logo da Pfizer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href><h5 class="card-title">Vacina da Pfizer terá chip da Microsoft para prevenir
+                                        efeitos colaterais?</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class=" container footer">
+        <div class="row">
+            <div class="col-12 footer">
+                <p> Todos os direitos reservados - Copyright 2021 </p>
+        
+            </div>
+
+            <footer>
+             
+            </footer>
+      
+            </div>
+
+    </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

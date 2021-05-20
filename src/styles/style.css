@@ -1,36 +1,43 @@
-.cabecalho{
-    background-color: rgb(189, 186, 186);
+.label{
+    color: red;
+}
+
+.header{
+    margin-bottom: 15px;
+}
+
+
+.carrousel{
+    background-color: rgb(202, 199, 199);
+    margin-bottom: 20px;
+    color: rgb(202, 199, 199);
+}
+
+.main h1{
     text-align: center;
-    margin-bottom: 8px;
 }
 
-.conteudo{
-    background-color: rgb(231, 231, 231);
+.carrousel img{
+    margin-right: 5px;
+}
+
+.nav-item{
+    margin-right:24px;
+    margin-left:24px;
     text-align: center;
-    height: 90vh;
-}
-.conteudo h1{
-    margin-top: 30%;
 }
 
-.cabecalho h1{
-    padding: 10px;
+
+a{
+    color: black;
 }
 
-.barra_lateral{
-    background-color: rgb(204, 204, 204);
-    padding-top: 20%;
-    text-align: center;
-    margin-left:0px;
+a:hover{
+    color: black;
 }
 
-.conteudo-login{
-    height: 98vh;
-    background-color: rgb(192, 192, 192);
-    text-align: center;
-    margin: 10px;
-}
-
-.conteudo-login h1{
-    margin-top: 35%;
+.footer {
+  background-color:rgb(204, 203, 203);
+  text-align: center;
+  padding-top:5px;
 }
