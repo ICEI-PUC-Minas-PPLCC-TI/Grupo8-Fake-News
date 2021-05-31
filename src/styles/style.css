@@ -41,3 +41,53 @@ a:hover{
   text-align: center;
   padding-top:5px;
 }
+
+.redessoc{
+    background-color:rgb(221, 221, 221)
+}
+
+.quemsomos h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(173, 47, 47);
+    text-align: center;
+}
+
+.quemsomos{
+    background-color: rgb(241, 241, 241);
+}
+
+.quemsomos h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgb(173, 47, 47);
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quemsomos a{
+    font-size: 25px;
+}
+.quemsomos img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rodapeqs{
+    background-color: rgb(255, 70, 70);
+
+}
+
+.rodapeqs p{
+ text-align: center;
+}
+
+.redessoc li{
+    margin-bottom: 10px;
+}
