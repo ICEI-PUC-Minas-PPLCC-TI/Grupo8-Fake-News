@@ -1,0 +1,11 @@
+{
+    "name": "Grupo8-Fake-News",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ICEI-PUC-Minas-PPLCC-TI/Grupo8-Fake-News.git",
+    "author": "Felipe <feliperiku@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "start": "node src/index.js"
+    }
+  }
