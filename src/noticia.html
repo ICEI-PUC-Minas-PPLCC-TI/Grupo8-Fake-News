@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-
-    <title>Quem Somos</title>
-
+    <title>Pagina de notícia</title>
 </head>
+
 <body>
     <div class="container header">
         <div class=" row">
@@ -24,7 +24,7 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-    
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
@@ -41,96 +41,64 @@
                                         <a class="dropdown-item" href="categoria.html">Saúde</a>
                                         <a class="dropdown-item" href="categoria.html">Esportes</a>
                                         <a class="dropdown-item" href="categoria.html">Entretenimento</a>
-    
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="login.html">Login</a>
                                 </li>
                             </ul>
                             <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
                                 <button type="button" class="btn btn-danger" type="submit">Pesquisar</button>
                             </form>
                         </div>
                     </nav>
                 </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container quemsomos">
-        <div class="row">
-            <div class="col-lg-8 col-md-12 col-sm-12">
-            
-             <h4>QUEM SOMOS NÓS</h4>
-             
-
-             <p> Somos uma equipe de estudantes da PUC MINAS - Praça da liberdade que, através de um trabalho dado na matéria
-                 de TIAW, apontamos um problema que é muito real e prejudica a vida de muitas pessoas, e queriamos, de uma vez 
-                por todas, criar um mecanismo para ajudar as pessoas a se defenderem de Fake News. </p>
-                <p>As Fake News são notícias falsas, e são divulgadas, na maioria das vezes, com o propósito de beneficio
-                    próprio ou para prejudicar um outro alguém, e isso pode acarretar uma série de problemas.
-                    Entre os consequências das Fake News podemos ressaltar: 
-                    <ul>
-                        <li>Contribui para a desinformação da população</li>
-                        <li>Interfere negativamente no posicionamento político da população</li>
-                        <li>Pode acarretar depressão às vitimas da notícia falsa</li>
-                        <li>Prejudica a saúde da população</li>
-                    </ul>
-                </p>
-
-            <p> Devemos sempre trabalhar para combatê-las, já que, no mundo moderno atual, as notícias são
-                rapidamente divulgadas e espalhadas, e um site que ajuda a verificar a veracidade dessas notícias, nos 
-                parecia uma grande ideia.
-
-            </p>
-            <img src="assets/factnews.jpg" width="400px" height="200px" alt="Imagem fake news">
-            
-            
-            </div>
-            <div class=" redessoc col-lg-4 col-md-12 col-sm-12">
-                <lu>
-                    <h5>Redes Sociais</h5>
-                    <li><a href="https://twitter.com/FakeNew69225425" target="_blank">Twitter</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </lu>
-                <h5>Nossa Equipe</h5>
-                <li>Arthur Campos Alves</li>
-                <li>Bruno Fonseca Pietra </li>
-                <li>Felipe De Vitta Leal </li>
-                <li>Gustavo Starling Moss </li>
-                <li>Pedro Dias Horta Pereira</li>
-                <li>Tiago de Paiva Mucci</li>
 
             </div>
 
         </div>
 
     </div>
-    <div class="container rodapeqs">
+
+    <div class="container main">
         <div class="row">
             <div class="col-12">
-              <h6>CONTRA AS FAKE NEWS</h6>
-              <p>Todos os direitos reservados - Copryright 2021</p>
+                <div id="currentNews" class="row"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container cont">
+        <div class="row">
+            <div id="description" class="col-12">
+                <p></p>
+            </div>
+            <div>
+                <h1>Comentarios</h1>
+
+
             </div>
 
         </div>
 
     </div>
 
+ 
 
+
+    <script src="./scripts/noticia.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
+
 </html>
