@@ -23,12 +23,16 @@ const news = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non orci imperdiet, aliquam massa semper, molestie tellus. Nunc tempor sodales ante ac tincidunt. In varius convallis risus eu laoreet. Proin ac ultricies mi. Nunc eu pulvinar nisl. Nunc faucibus pretium mi vitae bibendum. Aliquam nec dui eget est feugiat feugiat vel vehicula lectus. Nullam aliquam felis ut laoreet luctus. Sed non pulvinar est, ut pharetra ante. Mauris ut turpis quis tellus consequat consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis vitae quam semper, lobortis erat a, sollicitudin quam. Morbi laoreet rhoncus sapien non pharetra.',
     category:'Saúde'  
   },
+  {
+    image: 'assets/Pfizer.jpg',
+    title: 'Vacina da Pfizer terá chip da Microsoft para prevenir efeitos colaterais?',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non orci imperdiet, aliquam massa semper, molestie tellus. Nunc tempor sodales ante ac tincidunt. In varius convallis risus eu laoreet. Proin ac ultricies mi. Nunc eu pulvinar nisl. Nunc faucibus pretium mi vitae bibendum. Aliquam nec dui eget est feugiat feugiat vel vehicula lectus. Nullam aliquam felis ut laoreet luctus. Sed non pulvinar est, ut pharetra ante. Mauris ut turpis quis tellus consequat consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis vitae quam semper, lobortis erat a, sollicitudin quam. Morbi laoreet rhoncus sapien non pharetra.',
+    category:'Política'  
+  },
   
 ];
 
 localStorage.setItem('news',JSON.stringify(news));
-
-
 
 
 function generateNews(image, title, description) {
@@ -92,7 +96,7 @@ function non() {
 
   let arr = [];
 
-  for (let index = 0; index < news.length; index++) {
+  for (let index = 0; index < 4; index++) {
     if ((index + 1) % 2 === 0) {
       const divCol = generateNews(news[index].image, news[index].title, news[index].description);
       arr.push(divCol);
