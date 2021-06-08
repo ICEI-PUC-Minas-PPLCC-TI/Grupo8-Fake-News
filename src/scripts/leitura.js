@@ -30,6 +30,7 @@ const news = [
     category:'Política'  
   },
   
+  
 ];
 
 localStorage.setItem('news',JSON.stringify(news));
