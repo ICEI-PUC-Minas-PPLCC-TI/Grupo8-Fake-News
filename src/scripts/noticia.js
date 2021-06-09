@@ -21,6 +21,4 @@ current.appendChild(h1);
 const desc = document.getElementById('description');
 const p = document.createElement('p');
 p.innerText = currentNews.description;
-
-
 desc.appendChild(p);
