@@ -19,7 +19,7 @@ function capturar() {
         divCol.classList.add('col-md-6');
         divCol.classList.add('col-lg-6');
         divCol.onclick = () => {
-            localStorage.setItem('currentNews', JSON.stringify({ image: notic[index].image, title: notic[index].title, description: notic[index].description }));
+            localStorage.setItem('currentNews', JSON.stringify({ image: notic[index].image, title: notic[index].title, description: notic[index].description, id: notic[index].id, comments: notic[index].comments }));
         }
         const card = document.createElement('p');
         divCol.innerHTML = ` 

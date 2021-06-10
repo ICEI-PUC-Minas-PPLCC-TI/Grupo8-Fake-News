@@ -37,10 +37,11 @@ a:hover{
     color: black;
 }
 
-.footer {
+.cfooter {
+  margin-top: 50px;
   background-color:rgb(255, 70, 70);
   text-align: center;
-  padding-top:5px;
+  padding-top:20px;
 }
 
 .redessoc{
@@ -92,5 +93,8 @@ p{
 .redessoc li{
     margin-bottom: 10px;
 }
+
+
+
 
 

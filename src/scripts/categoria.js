@@ -23,7 +23,7 @@ for (let index = 0; index < not.length; index++) {
     divCol.classList.add('col-md-6');
     divCol.classList.add('col-lg-6');
     divCol.onclick = () => {
-        localStorage.setItem('currentNews', JSON.stringify({ image: not[index].image, title: not[index].title, description: not[index].description }));
+        localStorage.setItem('currentNews', JSON.stringify({ image: not[index].image, title: not[index].title, description: not[index].description, id: not[index].id, comments: not[index].comments }));
     }
     const card = document.createElement('p');
     divCol.innerHTML = ` 
