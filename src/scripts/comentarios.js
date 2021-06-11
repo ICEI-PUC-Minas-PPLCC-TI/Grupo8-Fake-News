@@ -10,12 +10,13 @@
  const com2 = document.createElement('p');
  com.style.marginTop = '30px';
  com.style.padding = '5px';
- com.style.border = '2px solid black';
+ com.style.border = '2px solid grey';
  com.style.borderRadius = '5px'
- com2.style.border = '2px solid grey'
- com2.style.borderRadius = '5px';
+ com2.style.border = '2px solid black'
  com2.style.padding = '10px';
  com2.style.marginBottom = '70px';
+ com2.style.maxWidth = '100%'
+ com2.style.overflow ='auto'
 
 postar.addEventListener('click', () => {
     const nomezera = document.getElementById('nomeUsuario').value;
@@ -47,12 +48,13 @@ postar.addEventListener('click', () => {
             const p2 = document.createElement('p');
             p1.style.marginTop = '30px';
             p1.style.padding = '5px';
-            p1.style.border = '2px solid black';
+            p1.style.border = '2px solid grey';
             p1.style.borderRadius = '5px'
-            p2.style.border = '2px solid grey'
-            p2.style.borderRadius = '5px';
+            p2.style.border = '2px solid black'
             p2.style.padding = '10px';
             p2.style.marginBottom = '70px';
+            p2.style.maxWidth = '100%'
+            p2.style.overflow ='auto'
             p1.innerText = c.name
             p2.innerText = c.comment
             coment.appendChild(p1)
