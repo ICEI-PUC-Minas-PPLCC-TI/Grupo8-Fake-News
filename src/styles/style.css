@@ -99,7 +99,33 @@ p{
 #avaliesite{
     color:rgb(173, 47, 47) ;
 }
+body.dark{
+    background-color: black;
+    color:rgb(182, 159, 134)
+}
 
+body.light{
+    background-color: white;
+    color: black;
+}
+
+.botao{
+    background-color: black;
+    border-radius: 40%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 30px;
+}
+
+body.dark .botao{
+    background-color: white;
+}
+
+#btn{
+    visibility: hidden;
+}
 
 
 
