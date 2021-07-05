@@ -332,9 +332,7 @@ const news = [
   
 ];
 
-if(!localStorage.getItem('news')){
   localStorage.setItem('news',JSON.stringify(news));
-}
 
 
 function generateNews(image, title, description, id, comments) {
