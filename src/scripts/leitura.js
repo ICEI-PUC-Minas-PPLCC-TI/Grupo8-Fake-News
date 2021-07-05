@@ -32,7 +32,7 @@ const news = [
     id: '4'
   },
   {
-    image: 'assets/messi - fk.jpg',
+    image: 'assets/messi.jpg',
     title: 'O Cruzeiro anuncia Messi?',
     description: 'Essa notícia É FAKE. O site do Cruzeiro foi hackeado nesta sexta-feira e contou com uma matéria anunciando a contratação de Lionel Messi, que está de saída do Barcelona. O clube informou que a nota foi retirada do ar e está investigando o responsável pela invasão.',
     category:'Esportes',  
@@ -66,7 +66,7 @@ const news = [
   {
     image: 'assets/israel.jpg',
     title: 'Ninguem se feriu durante a avalanche humana em Israel dia 30 de abril?',
-    description: 'Essa notícia É FAKE. O site do Cruzeiro foi hackeado nesta sexta-feira e contou com uma matéria anunciando a contratação de Lionel Messi, que está de saída do Barcelona. O clube informou que a nota foi retirada do ar e está investigando o responsável pela invasão.',
+    description: 'Essa notícia É FAKE. Quando saía com sucesso da pandemia graças à vacinação maciça, uma tragédia chocou Israel na madrugada de sexta-feira (hora local). Pelo menos 44 pessoas morreram e dezenas ficaram feridas durante a comemoração do Lag Baomer, a festa judaica do fogo, no monte Meron (norte do país) ao ocorrer uma avalanche humana após uma aparente explosão de pânico em um local em que dezenas de milhares de judeus ultraortodoxos se amontoavam. Era o acontecimento mais multitudinário ocorrido no país desde março do ano passado, quando foi declarada a crise sanitária mundial, apesar da limitação de lotação de 10.000 participantes imposta pelas autoridades.',
     category:'Religião',  
     comments: [],
     id: '9'
@@ -146,7 +146,7 @@ const news = [
   {
     image: 'assets/autismo.jpg',
     title: 'Vacina causa autismo?',
-    description: 'Esse tópico É FAKE. Esse é um boato antigo, que surgiu em 1998, porém muitos estudos já o desmentiram ao longo desses anos. Em uma pesquisa, com mais de 650 mil crianças, comprovou-se que a vacina não causa autismo. A vacinação é uma das melhores formas de estar protegido contra diferentes vírus e bactérias, além de manter a sociedade segura impedindo que doenças se espalhem e causem uma epidemia.',
+    description: 'Esse tópico É FAKE. Esse é um boato antigo, que surgiu em 1998, porém, muitos estudos já o desmentiram ao longo desses anos. Em uma pesquisa recente, com mais de 650 mil crianças, comprovou-se que a vacina não causa autismo. A vacinação é uma das melhores formas de estar protegido contra diferentes vírus e bactérias, além de manter a sociedade segura, impedindo que doenças se espalhem e causem uma epidemia.',
     category:'Saúde',  
     comments: [],
     id: '19'
@@ -214,6 +214,118 @@ const news = [
     category:'Entretenimento',  
     comments: [],
     id: '25'
+  },
+  {
+    image: 'assets/joachin.jpg',
+    title: 'Depois de 15 anos, Joachim Löw deixa o comando da seleção da Alemanha?',
+    description: 'Essa notícia NÃO É FAKE. A frase eternizada na voz de Galvão Bueno resume o que foi o "7 a 1" para o Brasil na Copa do Mundo de 2014. O maior vexame da nossa seleção e, ao mesmo tempo, o ápice da Alemanha, que seria campeã em cima da Argentina, no Maracanã. Alemanha de Joachim Löw. Essa Alemanha não existe mais. Há alguns anos, em teoria. E na prática, a partir de hoje, inicia uma nova era, depois de 15 anos com Löw. A seleção alemã se despediu da Eurocopa com a derrota para a Inglaterra, encerrando assim o período de seu técnico mais longevo. Também o mais vitorioso. O protagonista de cenas curiosas. O personagem de vários vexames. O homem que transformou o estilo da equipe nacional e entrou para a história do futebol mundial.',
+    category:'Esportes',  
+    comments: [],
+    id: '26'
+  },
+  {
+    image: 'assets/eriksen.jpeg',
+    title: 'Eriksen, da Dinamarca, cai desacordado em campo?',
+    description: 'Essa notícia NÃO É FAKE. Meia causa preocupação no fim do primeiro tempo contra a Finlândia. Jogo ficou interrompido por mais de uma hora, mas foi retomado após boletim médico indicar estabilidade do jogador. Uma cena muito preocupante marcou o fim do primeiro tempo do jogo entre Dinamarca e Finlândia, neste sábado, em Copenhague, pela Eurocopa. O meia dinamarquês Eriksen, de 29 anos, caiu desacordado no gramado e precisou receber massagem cardíaca durante atendimento médico que durou cerca de 15 minutos. Flagrado de olhos abertos ao deixar o campo, ele foi transferido para um hospital e está em estado estável, de acordo com informações da Uefa. Às 15h05 deste sábado, a Federação Dinamarquesa de Futebol informou que o jogador está bem e a partida foi retomada a partir das 15h30, terminando com vitória finlandesa por 1 a 0.',
+    category:'Esportes',  
+    comments: [],
+    id: '27'
+  },
+  {
+    image: 'assets/lesao.jpg',
+    title: 'Giannis sofrem uma lesão assustadora na NBA?',
+    description: 'Essa notícia NÃO É FAKE. O jogo 4 da final da Conferência Leste da NBA foi marcado por uma imagem forte na terça-feira. O grego Giannis Antetokounmpo sofreu uma lesão assustadora no joelho esquerdo e não pôde ajudar o Milwaukee Bucks. A noite ainda teve uma cesta incrível de Clint Capela por trás da tabela, um dos destaques da vitória do Atlanta Hawks, que empatou a série. Confira o melhor da rodada da liga americana de basquete. Em uma disputa com Clint Capela no terceiro quarto, Giannis Antetokounmpo não aterrissou bem e sofreu uma hiperextensão do joelho esquerdo. A cena assustou os fãs dos Bucks. O astro grego deixou a quadra caminhando, mas vai passar por uma ressonância magnética nesta quarta-feira para saber a gravidade da lesão. Ele saiu com 14 pontos e 8 rebotes em 24 minutos.',
+    category:'Esportes',  
+    comments: [],
+    id: '28'
+  },
+  {
+    image: 'assets/cruyf.jpg',
+    title: 'Cruyff boicotou a copa?',
+    description: 'Essa notícia É FAKE. Maior nome da história do futebol holandês, Johan Cruyff só disputou uma Copa do Mundo, em 1947. Quatro anos depois, ele decidiu não ir ao mundial na Argentina em boicote a ditadura militar do país-sede. Bem, essa é a versão que se popularizou no planeta. No entando, em 2010, o craque revelou o verdadeiro motivo da sua ausência na copa: depois de um assalto a sua casa, em que bandidos chegaram a colocar uma arma em sua cabeça, ele decidiu que não queria passar mais longos periodos longe da família.',
+    category:'Esportes',  
+    comments: [],
+    id: '29'
+  },
+  {
+    image: 'assets/eriksen2.jpg',
+    title: 'Eriksen passou mal por causa da vacina?',
+    description: 'Essa notícia É FAKE. A cena de Christian Eriksen desabando no gramado após mal súbito no confronto entre Dinamarca e Finlândia, válido pela primeira rodada do grupo B na Eurocopa, chocou o mundo. Uma rede de apoio ao atleta formou-se com orações e homenagens tanto em campo como fora vindas de jogadores. No entanto, falsas informações assustaram torcedores, como a de que Eriksen teria tomado a vacina contra a Covid-19 e, por isso mal no jogo. Então, saiba o que realmente aconteceu com o jogador da Dinamarca. No último sábado (12), em partida da Dinamarca e FInlândia pela primeira rodada da fase de grupos da Eurocopa em 2021, o jogador dinamarquês, Christian Eriksen, desabou aos 40 minutos de partida e deixou torcedores instantaneamente preocupados. No mesmo momento, a equipe médica entrou em campo para socorrer o atleta, fazendo massagem cardíaca para trazer Eriksen de volta.',
+    category:'Esportes',  
+    comments: [],
+    id: '30'
+  },
+  {
+    image: 'assets/tecnico.jpeg',
+    title: 'Técnico Alberto Valentim teria saído com a esposa do presidente do clube?',
+    description: 'Essa notícia É FAKE. No Ultimo mês uma noticia que pegou muitos torcedores de surpresa, foi o anuncio da demissão do técnico Alberto Valentim do time do Cuiabá na 2º rodada do brasileirão série A 2021, já que este ano temos uma nova regra onde cada clube só pode contratar 2 treinadores ao longo do campeonato, e o clube mato-grossense teria queimado um dos treinadores muito cedo no campeonato. Então a internet começou a noticiar varias coisas, mas a que mais repercutiu com certeza foi a que teria tido uma discussão interna entre o então técnico Alberto Valentim e o presidente do clube Alessandro Dresch com motivo de que o técnico teria saido com a esposa de Dresch. O própio clube postou em suas redes socias alegando que o motivo da demissão de Valentim, é que eles já estariam insatisfeitos com o trabalho do técnico antes mesmo da primeira do rodada do campeonato, e que após o empate com o juventude a decisão de demiti-lo, apenas tomou forma.',
+    category:'Esportes',  
+    comments: [],
+    id: '31'
+  },
+  {
+    image: 'assets/bolsonaro.jpg',
+    title: 'Fanatismo do governo pode levar país à violência?',
+    description: 'Essa notícia NÃO É FAKE. A polarização instalada no País envolvendo Lula e Bolsonaro na corrida presidencial de 2022 pode descambar para o estado de violência. A constatação é do ex-ministro do Governo Bolsonaro, general Santos Cruz.“Nessa polarização o Brasil fica no dilema entre o precipício e o abismo. Temos um ex-presidente que já teve sua oportunidade e não tem sentido a volta. E temos um presidente atual que já demonstrou que está mais preocupado com o soldo do que com a administração ou pacificação do País. É uma polarização que não interessa”',
+    category:'Política',  
+    comments: [],
+    id: '32'
+  },
+  {
+    image: 'assets/PT.jpg',
+    title: 'O homem que apunhalou Bolsonaro é filiado ao PT e aparece numa foto com Lula?',
+    description: 'Essa notícia É FAKE. Depois de ser atacado por um fanático em setembro, começaram a circular correntes de mensagens no Facebook e Whatsapp garantindo que Adélio Bispo de Oliveira, agressor do Bolsonaro, era filiado ao PT. O dado foi reproduzido por vários sites informativos, que contribuíram para espalhar o boato. Segundo o Aos Fatos, nenhuma pessoa com esse nome aparece no registro oficial de filiados do Tribunal Superior Eleitoral.',
+    category:'Política',  
+    comments: [],
+    id: '33'
+  },
+  {
+    image: 'assets/bolsozao.jpg',
+    title: 'Partidos, entidades e políticos protocolam superpedido de impeachment de Bolsonaro?',
+    description: 'Essa notícia NÃO É FAKE. Partidos políticos, parlamentares, movimentos sociais e entidades da sociedade civil protocolaram nesta quarta-feira (30) na Câmara o chamado "superpedido" de impeachment do presidente Jair Bolsonaro. O "superpedido" tem 45 signatários e consolida argumentos apresentados nos outros 123 pedidos de impeachment já apresentados à Câmara. Entre esses argumentos, está o mais recente — o que aponta prevaricação do presidente no caso da suspeita de corrupção no contrato de compra da vacina indiana Covaxin.',
+    category:'Política',  
+    comments: [],
+    id: '34'
+  },
+  {
+    image: 'assets/levan.jpg',
+    title: 'Ricardo Lewandowski encaminha à PGR notícia-crime contra Bolsonaro por incentivar crianças a não usar máscara?',
+    description: 'Essa notícia NÃO É FAKE. O ministro do Supremo Ricardo Lewandowski encaminhou à PGR a notícia-crime apresentada por parlamentares do PSOL contra o presidente Jair Bolsonaro por colocar crianças em risco, ao incentivá-las a não usar máscara. Em visita ao Rio Grande do Norte, o presidente fez gesto para uma menina abaixar a máscara, e ela abaixou. E ele mesmo retirou a máscara de uma outra criança, que estava em seu colo.',
+    category:'Política',  
+    comments: [],
+    id: '35'
+  },
+  {
+    image: 'assets/bolsonaro4.jpg',
+    title: 'Jair Bolsonaro diz apoiar relações LGBT?',
+    description: 'Essa notícia É FAKE. Durante seus quase trinta anos de mandato, Jair Bolsonaro se notabilizou na Câmara dos Deputados e na imprensa por declarações como a defesa da castração química e a preferência por um filho morto a um filho gay. Há algumas semanas, um de seus filhos, Carlos Bolsonaro, republicou em seu perfil no Instagram uma imagem que simulava uma cena de tortura de um jovem gay. Em lives no Facebook, o capitão reformado subiu o tom em seus posicionamentos recentes, defendendo que desapareçam as “minorias” que não se adequem às “maiorias”. Na reta final do segundo turno, avolumam-se em diversas cidades relatos de agressão verbal e física a LGBT por motivação eleitoral. Ameaças como “a sua hora está chegando” e “vamos limpar o Brasil começando por vocês” têm alcançado jovens e casais LGBT na rua, na fila do mercado, na orla da praia e na repartição do trabalho.',
+    category:'Política',  
+    comments: [],
+    id: '36'
+  },
+  {
+    image: 'assets/kitgay.jpg',
+    title: 'O "Kit gay" foi distruibuido nas escolas?',
+    description: 'Essa notícia É FAKE. Na verdade, trata-se de um projeto chamado Escola Sem Homofobia, que o Ministério da Educação, então sob a gestão de Fernando Haddad, apresentou em 2011 com o apoio de diversas ONGs, mas não chegou a ser implantado. O objetivo do “kit gay”, como foi apelidado por seus detratores, seria oferecer formação aos professores para lidarem com os direitos LGTB, a luta contra a violência e os preconceitos e o respeito à diversidade entre os jovens e adolescentes. De forma alguma propunha “sexualizar as crianças” e “ensinar a ideologia de gênero nas escolas do Brasil”, como afirmou Bolsonaro numa entrevista em que mostrava um exemplar do livro Aparelho Sexual e Cia., de Hélène Bruller e Philippe Chapuis, que foi distribuído pelo Governo em algumas bibliotecas, mas nunca foi incluído no programa e não chegou aos colégios. O programa Escola Sem Homofobia acabou sendo vetado pela então presidenta Dilma Rousseff por pressões da bancada evangélica no Congresso.',
+    category:'Política',  
+    comments: [],
+    id: '37'
+  },
+  {
+    image: 'assets/anazona.jpeg',
+    title: 'Ana Maria Braga é hospitalizada após diagnóstico de covid-19?',
+    description: 'Essa notícia NÃO É FAKE. Ana Maria Braga, de 72 anos, foi diagnosticada com covid-19 e está hospitalizada em São Paulo, nesta segunda-feira (5). A notícia foi confirmada pela própria apresentadora durante a exibição de seu programa. "Dentro do possível, está tudo ótimo. Estava achando que era uma gripe. Estava assim mais ou menos desde quinta-feira (1º), mas a gente nunca espera. Eu, pelo menos, nunca penso no pior. A gente faz dois testes por semana para apresentar o programa. Na semana passada, eu fiz o exame e deu negativo, mas hoje de manhã fiz de novo e deu positivo. Só vim aqui [ao hospital] para conferir, mas está tudo ótimo", explicou ela.',
+    category:'Entretenimento',  
+    comments: [],
+    id: '38'
+  },
+  {
+    image: 'assets/anazona.jpeg',
+    title: 'Ana Maria Braga é hospitalizada após diagnóstico de covid-19?',
+    description: 'Essa notícia NÃO É FAKE. Ana Maria Braga, de 72 anos, foi diagnosticada com covid-19 e está hospitalizada em São Paulo, nesta segunda-feira (5). A notícia foi confirmada pela própria apresentadora durante a exibição de seu programa. "Dentro do possível, está tudo ótimo. Estava achando que era uma gripe. Estava assim mais ou menos desde quinta-feira (1º), mas a gente nunca espera. Eu, pelo menos, nunca penso no pior. A gente faz dois testes por semana para apresentar o programa. Na semana passada, eu fiz o exame e deu negativo, mas hoje de manhã fiz de novo e deu positivo. Só vim aqui [ao hospital] para conferir, mas está tudo ótimo", explicou ela.',
+    category:'Saúde',  
+    comments: [],
+    id: '38'
   },
   
  
